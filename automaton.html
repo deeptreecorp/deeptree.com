@@ -164,11 +164,25 @@
     .muted { color: var(--muted); }
 
     .problem-copy {
-      font-size: clamp(1.18rem, 2.6vw, 1.55rem);
-      line-height: 1.35;
+      font-size: clamp(1.22rem, 2.9vw, 1.7rem);
+      line-height: 1.3;
+      font-weight: 600;
       color: var(--text);
       margin: 0.35rem 0;
       max-width: 900px;
+    }
+
+    .problem-copy-sub {
+      font-size: clamp(1rem, 1.8vw, 1.15rem);
+      line-height: 1.45;
+      color: var(--muted);
+      margin: 0.25rem 0 0;
+      max-width: 860px;
+    }
+
+    .problem-accent {
+      color: var(--accent);
+      font-weight: 600;
     }
 
     footer {
@@ -198,8 +212,8 @@
     </div>
 
     <div style="margin-top: 2rem;">
-      <p class="problem-copy">AI agents are making decisions that affect your customers, your revenue, and your compliance posture.</p>
-      <p class="problem-copy">Most teams have no way to enforce who approves what, under which policy, or what happens when something goes wrong.</p>
+      <p class="problem-copy">AI agents are making decisions that affect your <span class="problem-accent">customers</span>, your <span class="problem-accent">revenue</span>, and your <span class="problem-accent">compliance posture</span>.</p>
+      <p class="problem-copy-sub">Most teams have <span class="problem-accent">no way to enforce</span> who approves what, under which policy, or what happens when something goes wrong.</p>
     </div>
 
     <section class="section">
